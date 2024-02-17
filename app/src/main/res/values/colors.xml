@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorFondoCasilla">#cccccc</color>
+    <color name="gris">#3c3c44</color>
+    <color name="colorFondoTablero">#d2b48c</color>
+    <color name="colorFondo">#add8e6</color>
+    <color name="colorFondoJugadorSeleccionado">#B4b2b2</color>
+    <color name="colorCasillaGanadora">#7ed37e</color>
+
+
+
+
+</resources>
