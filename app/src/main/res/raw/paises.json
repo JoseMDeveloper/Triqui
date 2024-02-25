@@ -1,0 +1,204 @@
+{
+  "paises":[
+    {
+      "capital": "Berlin",
+      "nombre_pais": "Alemania",
+      "nombre_pais_int": "Germany",
+      "sigla": "DE",
+      "bandera": "https://flagcdn.com/w1280/de.jpg"
+    },
+
+    {
+      "capital": "Buenos Aires",
+      "nombre_pais": "Argentina",
+      "nombre_pais_int": "Argentina",
+      "sigla": "AR",
+      "bandera": "https://flagcdn.com/w1280/ar.jpg"
+    },
+
+    {
+      "capital": "Canberra",
+      "nombre_pais": "Australia",
+      "nombre_pais_int": "Australia",
+      "sigla": "AU",
+      "bandera": "https://flagcdn.com/w1280/au.jpg"
+    },
+
+    {
+      "capital": "Viena",
+      "nombre_pais": "Austria",
+      "nombre_pais_int": "Austria",
+      "sigla": "AT",
+      "bandera": "https://flagcdn.com/w1280/at.jpg"
+    },
+
+    {
+      "capital": "Bruselas",
+      "nombre_pais": "Bélgica",
+      "nombre_pais_int": "Belgium",
+      "sigla": "BE",
+      "bandera": "https://flagcdn.com/w1280/be.jpg"
+    },
+
+    {
+      "capital": "La Paz",
+      "nombre_pais": "Bolivia",
+      "nombre_pais_int": "Bolivia",
+      "sigla": "BO",
+      "bandera": "https://flagcdn.com/w1280/bo.jpg"
+    },
+
+    {
+      "capital": "Brasilia",
+      "nombre_pais": "Brasil",
+      "nombre_pais_int": "Brazil",
+      "sigla": "BR",
+      "bandera": "https://flagcdn.com/w1280/br.jpg"
+    },
+
+    {
+      "capital": "Santiago",
+      "nombre_pais": "Chile",
+      "nombre_pais_int": "Chile",
+      "sigla": "CL",
+      "bandera": "https://flagcdn.com/w1280/cl.jpg"
+    },
+
+
+    {
+      "capital": "Bogotá",
+      "nombre_pais": "Colombia",
+      "nombre_pais_int": "Colombia",
+      "sigla": "CO",
+      "bandera": "https://flagcdn.com/w1280/co.jpg"
+    },
+    {
+      "capital": "La Habana",
+      "nombre_pais": "Cuba",
+      "nombre_pais_int": "Cuba",
+      "sigla": "CU",
+      "bandera": "https://flagcdn.com/w1280/cu.jpg"
+    },
+
+    {
+      "capital": "Quito",
+      "nombre_pais": "Ecuador",
+      "nombre_pais_int": "Ecuador",
+      "sigla": "EC",
+      "bandera": "https://flagcdn.com/w1280/ec.jpg"
+    },
+
+    {
+      "capital": "Madrid",
+      "nombre_pais": "España",
+      "nombre_pais_int": "Spain",
+      "sigla": "ES",
+      "bandera": "https://flagcdn.com/w1280/es.jpg"
+    },
+
+    {
+      "capital": "Washington",
+      "nombre_pais": "Estados Unidos",
+      "nombre_pais_int": "United States",
+      "sigla": "US",
+      "bandera": "https://flagcdn.com/w1280/us.jpg"
+    },
+
+    {
+      "capital": "Paris",
+      "nombre_pais": "Francia",
+      "nombre_pais_int": "France",
+      "sigla": "FR",
+      "bandera": "https://flagcdn.com/w1280/fr.jpg"
+    },
+
+    {
+      "capital": "Londres",
+      "nombre_pais": "Reino Unido",
+      "nombre_pais_int": "United Kingdom",
+      "sigla": "GB",
+      "bandera": "https://flagcdn.com/w1280/gb.jpg"
+    },
+
+    {
+      "capital": "Atenas",
+      "nombre_pais": "Grecia",
+      "nombre_pais_int": "Greece",
+      "sigla": "GR",
+      "bandera": "https://flagcdn.com/w1280/gr.jpg"
+    },
+
+    {
+      "capital": "Amsterdam",
+      "nombre_pais": "Holanda",
+      "nombre_pais_int": "Netherlands",
+      "sigla": "NL",
+      "bandera": "https://flagcdn.com/w1280/nl.jpg"
+    },
+
+    {
+      "capital": "Budapest",
+      "nombre_pais": "Hungría",
+      "nombre_pais_int": "Hungary",
+      "sigla": "HU",
+      "bandera": "https://flagcdn.com/w1280/hu.jpg"
+    },
+
+    {
+      "capital": "Dublín",
+      "nombre_pais": "Irlanda",
+      "nombre_pais_int": "Ireland",
+      "sigla": "IE",
+      "bandera": "https://flagcdn.com/w1280/ie.jpg"
+    },
+
+    {
+      "capital": "Reikiavik",
+      "nombre_pais": "Islandia",
+      "nombre_pais_int": "Iceland",
+      "sigla": "IS",
+      "bandera": "https://flagcdn.com/w1280/is.jpg"
+    },
+
+    {
+      "capital": "Jerusalén",
+      "nombre_pais": "Israel",
+      "nombre_pais_int": "Israel",
+      "sigla": "IL",
+      "bandera": "https://flagcdn.com/w1280/il.jpg"
+    },
+
+    {
+      "capital": "Roma",
+      "nombre_pais": "Italia",
+      "nombre_pais_int": "Italy",
+      "sigla": "IT",
+      "bandera": "https://flagcdn.com/w1280/it.jpg"
+    },
+
+    {
+      "capital": "Tokio",
+      "nombre_pais": "Japón",
+      "nombre_pais_int": "Japan",
+      "sigla": "JP",
+      "bandera": "https://flagcdn.com/w1280/jp.jpg"
+    },
+
+    {
+      "capital": "Montevideo",
+      "nombre_pais": "Uruguay",
+      "nombre_pais_int": "Uruguay",
+      "sigla": "UY",
+      "bandera": "https://flagcdn.com/w1280/uy.jpg"
+    },
+
+    {
+      "capital": "Caracas",
+      "nombre_pais": "Venezuela",
+      "nombre_pais_int": "Venezuela",
+      "sigla": "VE",
+      "bandera": "https://flagcdn.com/w1280/ve.jpg"
+    }
+
+  ]
+}

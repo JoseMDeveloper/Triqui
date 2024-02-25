@@ -3,4 +3,15 @@
     <string name="jugador1">Jugador 1</string>
     <string name="jugador2">Jugador 2</string>
     <string name="nuevoJuego">Nuevo Juego</string>
+    <string name="ticTacToe">TicTacToe</string>
+    <string name="greet">Random Greet</string>
+    <string name="countries">Countries</string>
+
+    <string-array name="idiomas">
+        <item>Español</item>
+        <item>English</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>Deutsch</item>
+    </string-array>
 </resources>

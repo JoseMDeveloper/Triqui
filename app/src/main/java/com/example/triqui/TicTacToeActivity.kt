@@ -3,20 +3,18 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.triqui.databinding.ActivityMainBinding
+import com.example.triqui.databinding.ActivityTictactoeBinding
+import classes.Casilla
 
-class MainActivity : AppCompatActivity() {
+class TicTacToeActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
-
-    class Casilla(var estado: Int, val imageView: ImageView)
-
+    private lateinit var binding: ActivityTictactoeBinding
     private lateinit var casillas: Array<Array<Casilla>>
     private var jugadorActual: Int = 1  // 1 para jugador X, 2 para jugador O
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityTictactoeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         inicializarCasillas()
