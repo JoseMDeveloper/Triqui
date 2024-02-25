@@ -4,20 +4,16 @@
     android:layout_height="match_parent"
     android:background="@drawable/fondo_greet">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textViewSaludo"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:background="@drawable/fondo_greet_text"
+        android:gravity="center"/>
 
-        <TextView
-            android:id="@+id/textViewSaludo"
-            android:layout_width="140dp"
-            android:layout_height="50dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="60dp"
-            android:textColor="@color/white"
-            android:background="@drawable/fondo_greet_text"
-            android:gravity="center"/>
 
-    </RelativeLayout>
 
 </FrameLayout>

@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.example.triqui.databinding.ActivityDetailBinding
+
 class DetailActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailBinding
@@ -13,7 +14,10 @@ class DetailActivity : AppCompatActivity() {
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        displayCountryDetails()
+    }
 
+    private fun displayCountryDetails() {
         val countryName = intent.getStringExtra("COUNTRY_NAME")
         val countryCapital = intent.getStringExtra("COUNTRY_CAPITAL")
         val countryIntName = intent.getStringExtra("COUNTRY_NAME_INT")

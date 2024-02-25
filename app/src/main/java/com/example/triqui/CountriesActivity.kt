@@ -18,12 +18,10 @@ class CountriesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityCountriesBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         loadCountries()
 
         val adapter = CountryAdapter(this, countries)
         binding.listViewCountries.adapter = adapter
-
         binding.listViewCountries.onItemClickListener =
             AdapterView.OnItemClickListener { parent, view, position, id ->
                 val selectedCountry = countries[position]

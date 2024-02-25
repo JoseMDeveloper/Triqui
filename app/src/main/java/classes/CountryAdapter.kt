@@ -7,7 +7,6 @@ import android.widget.ArrayAdapter
 import android.widget.TextView
 import classes.Country
 
-// extiende ArrayAdapter y trabaja con objetos de tipo Country.
 class CountryAdapter(context: Context, countries: List<Country>) :
     ArrayAdapter<Country>(context, 0, countries) {
 

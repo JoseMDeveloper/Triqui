@@ -15,15 +15,12 @@ class GreetActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         // Obtener el idioma seleccionado del Intent
-
-
         when (intent.getStringExtra("IDIOMA_SELECCIONADO")) {
             "Español" -> mostrarSaludo("Hola")
             "English" -> mostrarSaludo("Hello")
             "Italiano" -> mostrarSaludo("Ciao")
             "日本語" -> mostrarSaludo("こんにちは")
             "Deutsch" -> mostrarSaludo("Hallo")
-
             else -> mostrarSaludo("Hello")
         }
     }
