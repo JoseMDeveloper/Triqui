@@ -8,12 +8,10 @@
         android:id="@+id/textViewSaludo"
         android:layout_width="140dp"
         android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:textColor="@color/white"
+        android:layout_gravity="center_vertical|center_horizontal"
         android:background="@drawable/fondo_greet_text"
-        android:gravity="center"/>
-
-
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginBottom="250dp"/>
 
 </FrameLayout>

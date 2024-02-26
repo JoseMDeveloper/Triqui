@@ -11,9 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/contenedorSuperior"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginBottom="540dp"
         android:orientation="horizontal"
         >
 
@@ -83,17 +83,19 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:orientation="vertical"
-        android:layout_marginBottom="200dp"
+        android:layout_marginBottom="120dp"
         android:background="@drawable/tablero"
         android:layout_above="@+id/botonRepetir"
-        android:layout_centerVertical="true">
+        android:layout_centerVertical="true"
+        >
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:orientation="horizontal"
             android:weightSum="3">
-            
+
             <ImageView
                 android:id="@+id/casilla1"
                 android:layout_marginTop="10dp"
@@ -255,7 +257,7 @@
         android:layout_width="wrap_content"
         android:layout_height="70dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="70dp"
+        android:layout_marginBottom="30dp"
         android:layout_centerHorizontal="true"
         android:id="@+id/botonRepetir"
         android:text="@string/nuevoJuego"/>
